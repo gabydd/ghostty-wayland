@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=Ghostty
+Name=Wraith
 Type=Application
 Comment=A terminal emulator
-Exec=ghostty
+Exec=wraith
 Icon=com.mitchellh.ghostty
 Categories=System;TerminalEmulator;
 Keywords=terminal;tty;pty;
@@ -19,4 +19,4 @@ X-TerminalArgHold=--wait-after-command
 
 [Desktop Action new-window]
 Name=New Window
-Exec=ghostty
+Exec=wraith

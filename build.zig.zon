@@ -1,5 +1,5 @@
 .{
-    .name = "ghostty-wayland",
+    .name = "wraith",
 
     .version = "0.0.0",
 

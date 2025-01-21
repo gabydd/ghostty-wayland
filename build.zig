@@ -29,7 +29,7 @@ pub fn build(b: *std.Build) !void {
     const resources = try buildpkg.GhosttyResources.init(b, &config);
 
     const exe = b.addExecutable(.{
-        .name = "ghostty-wayland",
+        .name = "wraith",
         .root_source_file = b.path("src/main.zig"),
         .target = target,
         .optimize = optimize,
